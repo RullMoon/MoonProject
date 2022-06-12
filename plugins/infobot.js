@@ -17,9 +17,9 @@ let handler = async (m, { conn, command, usedPrefix, text }) => {
 ${sa}${kki} ${conn.user.name} ${kka}
 ${gy} Library : *Baileys-MD*
 ${gy} Language : *Javascript*
-${gy} Database : *MongoDB*
+${gy} Database : *Moon*
 ${gy} Version : *${versibot}*
-${gy} Developer : *@6285346545126*
+${gy} Developer : *@6285746030186*
 ${gy} Runtime : *${runtime}*
 ${gy} Prefix : *Multi Prefix 「 ${usedPrefix} 」*
 ${gy} Mode : *${global.opts['self'] ? 'Self' : 'Public'}*
@@ -28,9 +28,9 @@ ${gy} Register : *${userdaftar}*
 ${sb}
 `.trim()
   var as = `Tanggal : ${week}, ${date}\nWaktu : ${a} (WIB)`
-  //conn.sendTBL(m.chat, infonyacok, as, fla + `${command}`, `Source Code Bot ✨`, `https://github.com/raselcomel/lucubot-md`, null, null, `Menu`, `${usedPrefix}menu`, null, null, null, null, m, 
+  //conn.sendTBL(m.chat, infonyacok, as, fla + `${command}`, `Source Code Bot ✨`, `https://github.com/DikaArdnt/Hisoka-Morou`, null, null, `Menu`, `${usedPrefix}menu`, null, null, null, null, m, 
   conn.sendBL(m.chat, infonyacok, as, fla + `${command}`, [[`SC Bot`, `${usedPrefix}sc`], [`Menu`, `${usedPrefix}menu`]], m,
-    { mentions: ['6285346545126@s.whatsapp.net'] })
+    { mentions: ['6285746030186@s.whatsapp.net'] })
 
 }
 handler.help = ['infobot']
